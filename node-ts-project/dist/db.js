@@ -12,7 +12,7 @@ import mysql from 'mysql2/promise';
 export const pool = mysql.createPool({
     host: 'localhost',
     user: 'root',
-    password: 'root',
+    password: '',
     database: 'negocio',
 });
 const conect = () => __awaiter(void 0, void 0, void 0, function* () {

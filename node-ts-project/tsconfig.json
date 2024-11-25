@@ -9,7 +9,7 @@
 	  "skipLibCheck": true,                 // Salta la comprobación de tipos en las librerías
 	  "forceConsistentCasingInFileNames": true
 	},
-	"include": ["src"],                     // Directorio de los archivos fuente
+	"include": ["src/**/*.ts"],            // Directorio de los archivos fuente
 	"exclude": ["node_modules"]             // Excluye `node_modules`
   }
   
